@@ -30,18 +30,31 @@ This project was completed as part of a research-driven academic initiative at *
 ## 📁 Project Structure
 
 BC_Nanopore_Tracker/
+
 ├── controllers/
+
 │ └── dbController.js # DB operations
+
 ├── middlewares/
+
 │ └── validateTable.js # Table name validation
+
 ├── models/
+
 │ ├── db.js # MySQL connection
+
 │ └── tableModel.js # Query logic
+
 ├── routes/
+
 │ └── dataRoutes.js # API endpoints
+
 ├── frontend/ # Frontend files (CSV import/export)
+
 ├── .env # Environment config
+
 ├── app.js # Server entry point
+
 └── package.json # Dependencies and scripts
 
 ---
