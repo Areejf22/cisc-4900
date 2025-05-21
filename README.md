@@ -79,6 +79,8 @@ npm install
 cd frontend
 npm install papaparse
 cd ..
+
+
 **5-Set up .env file in the root directory**
 
 Create a .env file:
@@ -88,9 +90,13 @@ touch .env
 Paste the following content and update with your local credentials:
 
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASSWORD=your_password
+
 DB_NAME=labdatabase
+
 PORT=8000
 
 **6-Set up MySQL database**
@@ -102,7 +108,9 @@ Create the labdatabase and all necessary tables using your SQL schema.
 Start the backend server:
 
 node app.js
+
 Visit the backend at:
+
 http://localhost:8000
 
 ## 📡 API Endpoints
@@ -110,12 +118,19 @@ http://localhost:8000
 Base URL: /api/data
 
 Method	Endpoint	Description
+
 GET	/:tableName	Fetch paginated table data
+
 DELETE	/delete/:tableName/:id	Delete record (Admin only)
+
 POST	/run	Add new run
+
 POST	/experiment	Add new experiment
+
 POST	/computer	Add new computer
+
 POST	/minion	Add new minion
+
 PUT	/:tableName/:id	Update record by ID
 
 ## 👥 Credits
