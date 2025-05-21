@@ -1,4 +1,4 @@
-# DNA Sample Tracking System – Project 4900
+# DNA Sample Tracking System – CISC 4900
 
 This project was completed as part of a research-driven academic initiative at **Brooklyn College’s Bioinformatics Laboratory**. It builds upon a previously developed web application by introducing major backend and frontend improvements. The primary goal was to optimize the **organization, security, and scalability** of DNA sequencing workflows.
 
