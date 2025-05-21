@@ -90,15 +90,13 @@ touch .env
 
 Paste the following content and update with your local credentials:
 
+```
 DB_HOST=localhost
-
 DB_USER=root
-
 DB_PASSWORD=your_password
-
 DB_NAME=labdatabase
-
 PORT=8000
+```
 
 **6-Set up MySQL database**
 
