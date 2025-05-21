@@ -116,23 +116,17 @@ http://localhost:8000
 
 ## 📡 API Endpoints
 
-Base URL: /api/data
+**Base URL:** `/api/data`
 
-Method	Endpoint	Description
-
-GET	/:tableName	Fetch paginated table data
-
-DELETE	/delete/:tableName/:id	Delete record (Admin only)
-
-POST	/run	Add new run
-
-POST	/experiment	Add new experiment
-
-POST	/computer	Add new computer
-
-POST	/minion	Add new minion
-
-PUT	/:tableName/:id	Update record by ID
+| Method | Endpoint                  | Description                 |
+|--------|---------------------------|-----------------------------|
+| GET    | `/:tableName`             | Fetch paginated table data |
+| DELETE | `/delete/:tableName/:id`  | Delete record (Admin only) |
+| POST   | `/run`                    | Add new run                 |
+| POST   | `/experiment`             | Add new experiment          |
+| POST   | `/computer`               | Add new computer            |
+| POST   | `/minion`                 | Add new minion              |
+| PUT    | `/:tableName/:id`         | Update record by ID         |
 
 ## 👥 Credits
 Areej Fatima
