@@ -65,6 +65,7 @@ Edit
 brew install mysql
 ## ⚙️ Setup Instructions
 **1- Download the ZIP archive**
+
 Download from the repo:
 BC_Nanopore_Tracker.zip
 
