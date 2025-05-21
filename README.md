@@ -57,15 +57,19 @@ BC_Nanopore_Tracker/
 
 brew install mysql
 ## ⚙️ Setup Instructions
+
 **1- Download the ZIP archive**
 
 Download from the repo:
+
 BC_Nanopore_Tracker.zip
 
 **2- Unzip the project**
 
 unzip BC_Nanopore_Tracker.zip
+
 cd BC_Nanopore_Tracker
+
 **3-Install backend dependencies**
 
 npm install
@@ -76,9 +80,11 @@ cd frontend
 npm install papaparse
 cd ..
 **5-Set up .env file in the root directory**
+
 Create a .env file:
 
 touch .env
+
 Paste the following content and update with your local credentials:
 
 DB_HOST=localhost
@@ -88,6 +94,7 @@ DB_NAME=labdatabase
 PORT=8000
 
 **6-Set up MySQL database**
+
 Create the labdatabase and all necessary tables using your SQL schema.
 
 ## 🧪 Running the Application
