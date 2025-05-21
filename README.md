@@ -44,10 +44,6 @@ BC_Nanopore_Tracker/
 ├── app.js # Server entry point
 └── package.json # Dependencies and scripts
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 💻 Getting Started (for macOS)
@@ -57,11 +53,8 @@ Edit
 - Node.js (v14+ recommended) – Install via [Homebrew](https://brew.sh/):  
   ```bash
   brew install node
-MySQL Server – You can install it via Homebrew too:
+- MySQL Server – You can install it via Homebrew too:
 
-bash
-Copy
-Edit
 brew install mysql
 ## ⚙️ Setup Instructions
 **1- Download the ZIP archive**
@@ -71,56 +64,42 @@ BC_Nanopore_Tracker.zip
 
 **2- Unzip the project**
 
-bash
-Copy
-Edit
 unzip BC_Nanopore_Tracker.zip
 cd BC_Nanopore_Tracker
-Install backend dependencies
+**3-Install backend dependencies**
 
-bash
-Copy
-Edit
 npm install
-Install frontend dependency (PapaParse for CSV)
 
-bash
-Copy
-Edit
+**4-Install frontend dependency (PapaParse for CSV)**
+
 cd frontend
 npm install papaparse
 cd ..
-Set up .env file in the root directory
+**5-Set up .env file in the root directory**
 Create a .env file:
 
-bash
-Copy
-Edit
 touch .env
 Paste the following content and update with your local credentials:
 
-ini
-Copy
-Edit
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=labdatabase
 PORT=8000
-Set up MySQL database
+
+**6-Set up MySQL database**
 Create the labdatabase and all necessary tables using your SQL schema.
 
-🧪 Running the Application
+## 🧪 Running the Application
+
 Start the backend server:
 
-bash
-Copy
-Edit
 node app.js
 Visit the backend at:
 http://localhost:8000
 
-📡 API Endpoints
+## 📡 API Endpoints
+
 Base URL: /api/data
 
 Method	Endpoint	Description
@@ -132,11 +111,14 @@ POST	/computer	Add new computer
 POST	/minion	Add new minion
 PUT	/:tableName/:id	Update record by ID
 
-👥 Credits
+## 👥 Credits
 Areej Fatima
 
-Shabrina @Shabrina99
+Shabrina (https://github.com/Shabrina99)
 
 This project was created for educational purposes under the supervision of Brooklyn College’s Computer and Information Science Department.
+
+## 🔒 License
+This project is for academic/research use only and may be extended for open-source contribution in future iterations.
 
 .
