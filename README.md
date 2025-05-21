@@ -69,10 +69,7 @@ brew install mysql
 Download from the repo:
 BC_Nanopore_Tracker.zip
 
-Download from the repo:
-BC_Nanopore_Tracker.zip
-
-Unzip the project
+**2- Unzip the project**
 
 bash
 Copy
