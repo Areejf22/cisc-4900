@@ -32,7 +32,6 @@ This project was completed as part of a research-driven academic initiative at *
 BC_Nanopore_Tracker/
 
 ├── controllers/
-
 │ └── dbController.js # DB operations
 
 ├── middlewares/
